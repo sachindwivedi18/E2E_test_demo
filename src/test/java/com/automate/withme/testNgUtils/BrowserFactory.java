@@ -29,7 +29,7 @@ public class BrowserFactory {
 		DesiredCapabilities caps = null;
 		if(browser.equalsIgnoreCase("chrome")){
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\Desktop\\Tutorials\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\CI_CD\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 			webDriver.set(new ChromeDriver());
 		}
 		else if(browser.equalsIgnoreCase("IE")){
